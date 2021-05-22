@@ -8,6 +8,9 @@ body {
     overflow:scroll;
 }
 
+#home-background{
+     background-color:#191414;
+}
 
 .container {
     position:relative;
