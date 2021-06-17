@@ -8,11 +8,6 @@ body {
     overflow:scroll;
 }
 
-#home-background{
-    background-image: linear-gradient(black, grey, white);
-    background-repeat: no-repeat;
-}
-
 .container {
     position:relative;
     width: 100%;
