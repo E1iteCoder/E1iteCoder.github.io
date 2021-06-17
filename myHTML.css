@@ -9,7 +9,8 @@ body {
 }
 
 #home-background{
-     background-color:#191414;
+    background-image: linear-gradient(black, grey, white);
+    background-repeat: no-repeat;
 }
 
 .container {
