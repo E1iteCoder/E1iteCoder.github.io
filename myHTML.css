@@ -114,12 +114,39 @@ nav a:hover::before {
     
 }
 
+.item-grid2 {
+    background-color: #460505;
+    font-family: 'Lato', sans-serif;
+    box-sizing:content-box;
+    padding: 50px;
+    font-size: 67px;
+    right: 32px;
+    color: greenyellow;
+    border: 3.2px solid maroon;
+    border-radius: 4px;
+    
+}
+
+
 .Amh_letter {
+    font-size: 23px;
+}
+
+.Eng_phon {
     font-size: 23px;
 }
 
 
 .item-grid:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 0, 0);
+    box-shadow: 20px 20px 50px 10px pink;
+    border: 3.2px solid cornflowerblue;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-grid2:hover{
     background-color: rgb(255, 255, 255);
     color:rgb(255, 0, 0);
     box-shadow: 20px 20px 50px 10px pink;
