@@ -124,16 +124,32 @@ nav a:hover::before {
     color: greenyellow;
     border: 3.2px solid maroon;
     border-radius: 4px;
-    
+    perspective: 10000px;
 }
 
+.inner-flip {
+    transition: transform .8s;
+    transform-style: preserve-3d;
+}
+
+.item-grid2:active .inner-flip{
+    transform: rotateY(180deg);
+}
+
+.Amh_Lett, .Eng_phon{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
 
 .Amh_letter {
     font-size: 23px;
 }
 
+
+
 .Eng_phon {
     font-size: 23px;
+    transform: rotateY(180deg);
 }
 
 
