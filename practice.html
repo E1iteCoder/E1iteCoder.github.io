@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+	<head>
+		<title>Practice</title>
+		<link rel = "stylesheet" href = "myHTML.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	</head>
+
+
+	<body>
+		<audio id="myAudio">
+			<source id = "audio_source" src="Audio/hu.ogg" type = "audio/ogg">
+		</audio>
+
+		<script>
+			
+			function playAudio(src) {
+				var audio = document.getElementById("myAudio");
+				document.getElementById("audio_source").src = src;
+				audio.load();
+				audio.play();
+			}
+		</script>
+		<header>
+			<div class ="container"> 
+				<a href="index.html"><img src="tempLogo.png" alt="temporary Logo" class = "logo"></a>
+				<nav>
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "learn.html">Learn</a></li>
+						<li><a href = "quiz.html">Quiz</a></li>
+						<li><a href = "about.html">Form</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<br>
+		<div class = "legend">
+			<h3>Legend</h3>
+			<p>When you read this Amharic alphabet chart, it must have been confusing with the phonetics of the <b>ፊደሎች(fídèloch:</b>letters). This key will help you identify how this chart functions.</p>
+			<ul>
+				<li><b>è:</b>This phonetic is found in some of the first letters in the family (row). It sounds like: the "a" in about, the "e" in the, the "u" in shut.</li>
+				<br>
+				<li><b>ú:</b>This phonetic is found in the 2nd letter of each family (row). It sounds like: the "oo" in boot, "oe" in shoe, "oo" in cool, "u" in dude.</li>
+				<br>
+				<li><b>í:</b>This phonetic is found in the 3rd letter of each family (row). It sounds like: the "ea" in tea & seat, the "ee" in teeth & sheet, the "e" in he & she.</li>
+				<br>
+				<li><b>à:</b>This phonetic is found in the 4th letter of each family (row) and some of the 1st letters in each row. It sounds like: the "o" in top & cop, the "a" in apple & at, and more.</li>
+				<br>
+				<li><b>ê:</b>This phonetic is found in the 5th letter of each family (row). It sounds like: the "ai" in air, the "a" in alien, and more.</li>
+				<br>
+				<li><b>ə:</b>This phonetic is found in the 6th letter of each family (row). It sounds like: the second "e" in even, the "a" in woman, the "i" in family, and more. </li>
+				<br>
+				<li><b>' :</b>This symbol is used to signify that the consonant(s) before the symbol, needs some sort of stress or pressure when said.</li>
+			</ul>
+		</div>
+		<br>
+    
+		<div class = "grid">
+					<div class = "item-grid2"  onclick="playAudio('Audio/ha.mp3')"><span class ="inner-flip"><span class ="Amh_Lett"> <b>ሀ</b></span><span class = "Eng_phon"> hà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሁ</b></span><span class = "Eng_phon"> hú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሂ</b></span><span class = "Eng_phon"> hí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሃ</b></span><span class = "Eng_phon"> hà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሄ</b></span><span class = "Eng_phon"> hê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/h.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ህ</b></span><span class = "Eng_phon"> hə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ho.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሆ</b></span><span class = "Eng_phon"> ho</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/le.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ለ</b></span><span class = "Eng_phon"> lè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/lu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሉ</b></span><span class = "Eng_phon"> lú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/li.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሊ</b></span><span class = "Eng_phon"> lí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/la.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ላ</b></span><span class = "Eng_phon"> là</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/lie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሌ</b></span><span class = "Eng_phon"> lê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/l.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ል</b></span><span class = "Eng_phon"> lə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/lo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሎ</b></span><span class = "Eng_phon"> lo</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/ha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሐ</b></span><span class = "Eng_phon"> hà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሑ</b></span><span class = "Eng_phon"> hú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሒ</b></span><span class = "Eng_phon">hí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሓ</b></span><span class = "Eng_phon"> hà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሔ</b></span><span class = "Eng_phon"> hê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/h.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሕ</b></span><span class = "Eng_phon"> hə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ho.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሖ</b></span><span class = "Eng_phon"> ho</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/me.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>መ</b></span><span class = "Eng_phon">mè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/mu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሙ</b></span><span class = "Eng_phon">mú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/mi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሚ</b></span><span class = "Eng_phon">mí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ma.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ማ</b></span><span class = "Eng_phon">mà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/mie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሜ</b></span><span class = "Eng_phon">mê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/m.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ም</b></span><span class = "Eng_phon">mə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/mo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሞ</b></span><span class = "Eng_phon">mo</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/se.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሠ</b></span><span class = "Eng_phon"> sè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/su.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሡ</b></span><span class = "Eng_phon"> sú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/si.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሢ</b></span><span class = "Eng_phon"> sí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/sa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሣ</b></span><span class = "Eng_phon"> sà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/sie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሤ</b></span><span class = "Eng_phon"> sê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/s.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሥ</b></span><span class = "Eng_phon">sə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/so.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሦ</b></span><span class = "Eng_phon"> so</em></span></span></div>
+				
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/re.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ረ</b></span><span class = "Eng_phon"> rè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ru.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሩ</b></span><span class = "Eng_phon"> rú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ri.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሪ</b></span><span class = "Eng_phon"> rí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ra.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ራ</b></span><span class = "Eng_phon"> rà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/rie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሬ</b></span><span class = "Eng_phon"> rê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/r.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ር</b></span><span class = "Eng_phon"> rə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ro.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሮ</b></span><span class = "Eng_phon"> ro</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/se.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሰ</b></span><span class = "Eng_phon"> sè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/su.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሱ</b></span><span class = "Eng_phon"> sú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/si.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሲ</b></span><span class = "Eng_phon"> sí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/sa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሳ</b></span><span class = "Eng_phon"> sà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/sie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሴ</b></span><span class = "Eng_phon"> sê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/s.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ስ</b></span><span class = "Eng_phon"> sə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/so.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሶ</b></span><span class = "Eng_phon"> so</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/she.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሸ</b></span><span class = "Eng_phon"> shè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/shu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሹ</b></span><span class = "Eng_phon"> shú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/shi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሺ</b></span><span class = "Eng_phon"> shí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/sha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሻ</b></span><span class = "Eng_phon"> shà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/shie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሼ</b></span><span class = "Eng_phon"> shê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/sh.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሽ</b></span><span class = "Eng_phon"> shə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/sho.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ሾ</b></span><span class = "Eng_phon"> sho</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/qe.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቀ</b></span><span class = "Eng_phon"> q'è</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/qu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቁ</b></span><span class = "Eng_phon"> q'ú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/qi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቂ</b></span><span class = "Eng_phon"> q'í</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/qa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቃ</b></span><span class = "Eng_phon"> q'à</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/qie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቄ</b></span><span class = "Eng_phon"> q'ê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/q.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቅ</b></span><span class = "Eng_phon"> q'ə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/qo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቆ</b></span><span class = "Eng_phon"> q'o</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/be.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>በ</b></span><span class = "Eng_phon"> bè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/bu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቡ</b></span><span class = "Eng_phon"> bú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/bee.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቢ</b></span><span class = "Eng_phon"> bí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ba.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ባ</b></span><span class = "Eng_phon"> bà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/bie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቤ</b></span><span class = "Eng_phon"> bê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/b.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ብ</b></span><span class = "Eng_phon"> bə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/bo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቦ</b></span><span class = "Eng_phon"> bo</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/te.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ተ</b></span><span class = "Eng_phon"> tè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/tu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቱ</b></span><span class = "Eng_phon"> tú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ti.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቲ</b></span><span class = "Eng_phon"> tí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ta.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ታ</b></span><span class = "Eng_phon"> tà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/tie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቴ</b></span><span class = "Eng_phon"> tê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/t.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ት</b></span><span class = "Eng_phon"> tə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/to.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቶ</b></span><span class = "Eng_phon"> to</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/che.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቸ</b></span><span class = "Eng_phon"> chè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/chu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቹ</b></span><span class = "Eng_phon"> chú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/chi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቺ</b></span><span class = "Eng_phon"> chí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/cha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቻ</b></span><span class = "Eng_phon">chà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/chie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቼ</b></span><span class = "Eng_phon"> chê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ch.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ች</b></span><span class = "Eng_phon">chə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/cho.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ቾ</b></span><span class = "Eng_phon">cho</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/ha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኀ</b></span><span class = "Eng_phon"><em> hà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኁ</b></span><span class = "Eng_phon"> hú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኂ</b></span><span class = "Eng_phon"> hí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኃ</b></span><span class = "Eng_phon"> hà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኄ</b></span><span class = "Eng_phon"> hê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/h.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኅ</b></span><span class = "Eng_phon"> hə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ho.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኆ</b></span><span class = "Eng_phon"> ho</em></span></span></div>
+				
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/ne.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ነ</b></span><span class="Eng_phon"><em> nè</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/nu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኑ</b></span><span class="Eng_phon"><em> nú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ni.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኒ</b></span><span class="Eng_phon"><em> ní</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/na.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ና</b></span><span class="Eng_phon"><em> nà</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/nie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኔ</b></span><span class="Eng_phon"><em> nê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/n.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ን</b></span><span class="Eng_phon"><em> nə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/no.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኖ</b></span><span class="Eng_phon"><em> no</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/gne.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኘ</b></span><span class = "Eng_phon"> ñè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/gnu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኙ</b></span><span class = "Eng_phon"> ñú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/gni.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኚ</b></span><span class = "Eng_phon"> ñí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/gna.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኛ</b></span><span class = "Eng_phon"> ñà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/gnie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኜ</b></span><span class = "Eng_phon"> ñê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/gn.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኝ</b></span><span class = "Eng_phon"> ñə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/gno.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኞ</b></span><span class = "Eng_phon"> ño</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/aa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>አ</b></span><span class = "Eng_phon"> à</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/u.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኡ</b></span><span class = "Eng_phon"> ú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ii.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኢ</b></span><span class = "Eng_phon"> í</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/aa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኣ</b></span><span class = "Eng_phon"> à</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኤ</b></span><span class = "Eng_phon"> ê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/i.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>እ</b></span><span class = "Eng_phon"> ə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/o.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኦ</b></span><span class = "Eng_phon"> o</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/ke.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ከ</b></span><span class = "Eng_phon"> kè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ku.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኩ</b></span><span class = "Eng_phon"> kú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ki.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኪ</b></span><span class = "Eng_phon"> kí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ka.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ካ</b></span><span class = "Eng_phon"> kà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/kie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኬ</b></span><span class = "Eng_phon"> kê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/k.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ክ</b></span><span class = "Eng_phon"> kə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ko.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኮ</b></span><span class = "Eng_phon"> ko</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/huh.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኸ</b></span><span class = "Eng_phon"> hè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኹ</b></span><span class = "Eng_phon"> hú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኺ</b></span><span class = "Eng_phon"> hí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኻ</b></span><span class = "Eng_phon"> hà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/hie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኼ</b></span><span class = "Eng_phon"> hê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/h.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኽ</b></span><span class = "Eng_phon"> hə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ho.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ኾ</b></span><span class = "Eng_phon"> ho</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/we.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ወ</b></span><span class = "Eng_phon"> wè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/wu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዉ</b></span><span class = "Eng_phon"> wú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/wi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዊ</b></span><span class = "Eng_phon"> wí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/wa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዋ</b></span><span class = "Eng_phon"> wà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/wie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዌ</b></span><span class = "Eng_phon"> wê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/w.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ው</b></span><span class = "Eng_phon">wə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/wo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዎ</b></span><span class = "Eng_phon"> wo</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/aa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዐ</b></span> <span class = "Eng_phon"> à</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/u.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዑ</b></span> <span class = "Eng_phon"> ú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ii.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዒ</b></span> <span class = "Eng_phon"> í</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/aa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዓ</b></span> <span class = "Eng_phon"> à</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዔ</b></span> <span class = "Eng_phon"> ê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/i.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዕ</b></span> <span class = "Eng_phon"> ə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/o.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዖ</b></span> <span class = "Eng_phon"> o</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/ze.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዘ</b></span> <span class = "Eng_phon"> zè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዙ</b></span> <span class = "Eng_phon"> zú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዚ</b></span> <span class = "Eng_phon"> zí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/za.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዛ</b></span> <span class = "Eng_phon"> zà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዜ</b></span> <span class = "Eng_phon"> zê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/z.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዝ</b></span> <span class = "Eng_phon"> zə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዞ</b></span> <span class = "Eng_phon"> zo</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/zhe.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዠ</b></span><span class = "Eng_phon">zhè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zhu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዡ</b></span><span class = "Eng_phon"> zhú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zhi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዢ</b></span><span class = "Eng_phon">zhí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zha.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዣ</b></span><span class = "Eng_phon">zhà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zhie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዤ</b></span><span class = "Eng_phon">zhê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zh.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዥ</b></span><span class = "Eng_phon">zhə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/zho.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዦ</b></span><span class = "Eng_phon">zho</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/ye.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>የ</b></span><span class = "Eng_phon"> yè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/yu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዩ</b></span><span class = "Eng_phon"> yú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/yi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዪ</b></span><span class = "Eng_phon"> yí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/ya.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ያ</b></span><span class = "Eng_phon"> yà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/yie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዬ</b></span><span class = "Eng_phon"> yê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/y.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ይ</b></span><span class = "Eng_phon"> yə</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/yo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዮ</b></span><span class = "Eng_phon"> yo</em></span></span></div>
+				
+				
+					<div class = "item-grid2"  onclick="playAudio('Audio/de.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ደ</b></span><span class = "Eng_phon"> dè</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/du.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዱ</b></span><span class = "Eng_phon"> dú</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/di.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዲ</b></span><span class = "Eng_phon"> dí</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/da.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዳ</b></span><span class = "Eng_phon"> dà</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/die.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዴ</b></span><span class = "Eng_phon"> dê</em></span></span></div>
+					<div class = "item-grid2"  onclick="playAudio('Audio/d.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ድ</b></span><span class = "Eng_phon"> də</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/do.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ዶ</b></span><span class = "Eng_phon"> do</em></span></span></div>
+				
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/je.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጀ</b></span><span class = "Eng_phon"> jè</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ju.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጁ</b></span><span class = "Eng_phon"> jú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ji.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጂ</b></span><span class = "Eng_phon"> jí</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ja.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጃ</b></span><span class = "Eng_phon"> jà</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/jie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጄ</b></span><span class = "Eng_phon"> jê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/j.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጅ</b></span><span class = "Eng_phon"> jə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/jo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጆ</b></span><span class = "Eng_phon"> jo</em></span></span></div>
+					
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/ge.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ገ</b></span><span class = "Eng_phon"> gè</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/gu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጉ</b></span><span class = "Eng_phon"> gú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/gi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጊ</b></span><span class = "Eng_phon"> gí</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ga.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጋ</b></span><span class = "Eng_phon"> gà</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/gie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጌ</b></span><span class = "Eng_phon"> gê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/g.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ግ</b></span><span class = "Eng_phon"> gə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/go.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጎ</b></span><span class = "Eng_phon"> go</em></span></span></div>
+								
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/tte.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጠ</b></span><span class = "Eng_phon"> t'è</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ttu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጡ</b></span><span class = "Eng_phon"> t'ú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tti.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጢ</b></span><span class = "Eng_phon"> t'í</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tta.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጣ</b></span><span class = "Eng_phon"> t'à</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ttie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጤ</b></span><span class = "Eng_phon"> t'ê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tt.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጥ</b></span><span class = "Eng_phon"> t'ə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tto.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጦ</b></span><span class = "Eng_phon"> t'o</em></span></span></div>
+								
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/Ce.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጨ</b></span><span class = "Eng_phon">ch'è</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/Cu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጩ</b></span><span class = "Eng_phon">ch'ú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/Ci.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጪ</b></span><span class = "Eng_phon">ch'í</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/Ca.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጫ</b></span><span class = "Eng_phon">ch'à</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/Cie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጬ</b></span><span class = "Eng_phon">ch'ê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/C.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጭ</b></span><span class = "Eng_phon">ch'ə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/Co.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጮ</b></span><span class = "Eng_phon">ch'o</em></span></span></div>
+								
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/ppe.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጰ</b></span><span class = "Eng_phon"> p'è</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ppu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጱ</b></span><span class = "Eng_phon"> p'ú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ppi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጲ</b></span><span class = "Eng_phon"> p'í</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ppa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጳ</b></span><span class = "Eng_phon"> p'à</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ppie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጴ</b></span><span class = "Eng_phon"> p'ê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/pp.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጵ</b></span><span class = "Eng_phon"> p'ə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ppo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጶ</b></span><span class = "Eng_phon"> p'o</em></span></span></div>
+								
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/tse.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጸ</b></span><span class = "Eng_phon"> ts'è</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tsu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጹ</b></span><span class = "Eng_phon"> ts'ú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tsi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጺ</b></span><span class = "Eng_phon"> ts'í</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tsa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጻ</b></span><span class = "Eng_phon"> ts'à</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tsie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጼ</b></span><span class = "Eng_phon"> ts'ê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ts.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጽ</b></span><span class = "Eng_phon"> ts'ə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tso.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ጾ</b></span><span class = "Eng_phon"> ts'o</em></span></span></div>
+								
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/tse.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፀ</b></span><span class = "Eng_phon"> ts'è</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tsu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፁ</b></span><span class = "Eng_phon"> ts'ú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tsi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፂ</b></span><span class = "Eng_phon"> ts'í</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tsa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፃ</b></span><span class = "Eng_phon"> ts'à</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tsie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፄ</b></span><span class = "Eng_phon"> ts'ê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/ts.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፅ</b></span><span class = "Eng_phon"> ts'ə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/tso.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፆ</b></span><span class = "Eng_phon"> ts'o</em></span></span></div>
+								
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/fe.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፈ</b></span><span class = "Eng_phon"> fè</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/fu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፉ</b></span><span class = "Eng_phon"> fú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/fi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፊ</b></span><span class = "Eng_phon"> fí</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/fa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፋ</b></span><span class = "Eng_phon"> fà</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/fie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፌ</b></span><span class = "Eng_phon"> fê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/f.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፍ</b></span><span class = "Eng_phon"> fə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/fo.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፎ</b></span><span class = "Eng_phon"> fo</em></span></span></div>
+							
+				
+					<div class = "item-grid2" onclick="playAudio('Audio/pe.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፐ</b></span> <span class = "Eng_phon"> pè</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/pu.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፑ</b></span> <span class = "Eng_phon"> pú</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/pi.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፒ</b></span> <span class = "Eng_phon"> pí</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/pa.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፓ</b></span> <span class = "Eng_phon"> pà</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/pie.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፔ</b></span> <span class = "Eng_phon"> pê</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/p.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፕ</b></span> <span class = "Eng_phon"> pə</em></span></span></div>
+					<div class = "item-grid2" onclick="playAudio('Audio/po.mp3')"><span class ="inner-flip"><span class = "Amh_Lett"><b>ፖ</b></span><span class = "Eng_phon"> po</em></span></span></div>
+		</div>
+<a href="learn.html"><button>Learn</button>
+	</body>
+</html>
