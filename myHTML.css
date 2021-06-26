@@ -129,8 +129,6 @@ nav a:hover::before {
 
 .inner-flip {
     box-sizing:content-box;
-    padding: 50px;
-    font-size: 67px;
     position: relative;
     transition: transform .8s;
     transform-style: preserve-3d;
