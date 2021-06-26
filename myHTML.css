@@ -146,16 +146,16 @@ nav a:hover::before {
 
 .grid {
     display: grid;
-    grid-column-gap: 7%;
-    grid-row-gap: 7%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 
 
 .grid2 {
     display: grid;
-    grid-column-gap: 7%;
-    grid-row-gap: 7%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     grid-template-columns: auto auto auto auto auto auto auto;
 }
 
@@ -163,9 +163,9 @@ nav a:hover::before {
     background-color: #460505;
     font-family: 'Lato', sans-serif;
     box-sizing:content-box;
-    padding: 25%;
-    font-size: 35%;
-    right: 16%;
+    padding: 50px;
+    font-size: 67px;
+    right: 32px;
     color: greenyellow;
     border: 3.2px solid maroon;
     border-radius: 4px;
