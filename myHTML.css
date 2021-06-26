@@ -101,6 +101,13 @@ nav a:hover::before {
 }
 
 
+.grid2 {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
 .item-grid {
     background-color: #460505;
     font-family: 'Lato', sans-serif;
