@@ -33,9 +33,9 @@ body {
 .active {
     width: 125px;
     height: 50px;
-    justify-content: left;
     opacity: 0.5;
-    border: 3px solid maroon;    
+    border: 3px solid maroon;
+    float: left;
 }
 
 .topnav a:hover {
